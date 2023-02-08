@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace Shared.Web.HealthChecks;
+namespace Net.Shared.Web.HealthChecks;
 
 public sealed class HealthCheck : IHealthCheck
 {

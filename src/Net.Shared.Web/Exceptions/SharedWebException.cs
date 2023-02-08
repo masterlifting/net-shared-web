@@ -1,7 +1,7 @@
 ﻿using Shared.Exceptions.Abstractions;
 using Shared.Exceptions.Models;
 
-namespace Shared.Web.Exceptions;
+namespace Net.Shared.Web.Exceptions;
 
 public sealed class SharedWebException : SharedException
 {

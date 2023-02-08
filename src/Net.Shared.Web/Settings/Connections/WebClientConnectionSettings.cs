@@ -1,4 +1,4 @@
-﻿namespace Shared.Web.Settings.Connections;
+﻿namespace Net.Shared.Web.Settings.Connections;
 
 public sealed class WebClientConnectionSettings
 {

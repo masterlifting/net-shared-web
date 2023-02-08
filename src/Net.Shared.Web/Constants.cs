@@ -1,4 +1,4 @@
-﻿namespace Shared.Web;
+﻿namespace Net.Shared.Web;
 
 public static class Constants
 {
