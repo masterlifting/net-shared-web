@@ -1,12 +1,12 @@
 ﻿namespace Net.Shared.Web.Exceptions;
 
-public sealed class WebException : Net.Shared.Exception
+public sealed class WebException : NetSharedException
 {
     public WebException(string message) : base(message)
     {
     }
 
-    public WebException(System.Exception exception) : base(exception)
+    public WebException(Exception exception) : base(exception)
     {
     }
 }
