@@ -1,4 +1,6 @@
-﻿namespace Net.Shared.Web.Exceptions;
+﻿using Net.Shared.Exceptions;
+
+namespace Net.Shared.Web.Exceptions;
 
 public sealed class WebException : NetSharedException
 {
