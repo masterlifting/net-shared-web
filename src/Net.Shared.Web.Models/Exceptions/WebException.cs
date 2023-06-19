@@ -1,6 +1,6 @@
 ﻿using Net.Shared.Exceptions;
 
-namespace Net.Shared.Web.Exceptions;
+namespace Net.Shared.Web.Models.Exceptions;
 
 public sealed class WebException : NetSharedException
 {

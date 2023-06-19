@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Http\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Net.Shared.Web.Models\Net.Shared.Web.Models.csproj" />
+  </ItemGroup>
+
 </Project>

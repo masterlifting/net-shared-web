@@ -2,12 +2,12 @@
 
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace Net.Shared.Web.HealthChecks;
+namespace Net.Shared.Web.Http.HealthChecks;
 
-public sealed class HealthCheck : IHealthCheck
+public sealed class WebHttpHealthCheck : IHealthCheck
 {
     private readonly string _host;
-    public HealthCheck(string host) => _host = host;
+    public WebHttpHealthCheck(string host) => _host = host;
 
     public async Task<HealthCheckResult> CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken = default)
     {

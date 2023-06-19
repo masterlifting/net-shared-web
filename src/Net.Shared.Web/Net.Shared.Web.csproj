@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Net.Shared.Exceptions\src\Net.Shared.Exceptions\Net.Shared.Exceptions.csproj" />
+    <ProjectReference Include="..\Net.Shared.Web.Abstractions\Net.Shared.Web.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>

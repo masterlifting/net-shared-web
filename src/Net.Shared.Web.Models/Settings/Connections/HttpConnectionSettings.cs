@@ -1,6 +1,6 @@
-﻿namespace Net.Shared.Web.Settings.Connections;
+﻿namespace Net.Shared.Web.Models.Settings.Connections;
 
-public sealed class WebClientConnectionSettings
+public sealed class HttpConnectionSettings
 {
     public string Schema { get; set; } = null!;
     public string Host { get; set; } = null!;
