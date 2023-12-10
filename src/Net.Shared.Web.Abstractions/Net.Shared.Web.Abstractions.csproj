@@ -7,11 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Http\" />
+    <Compile Remove="Http\**" />
+    <EmbeddedResource Remove="Http\**" />
+    <None Remove="Http\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Net.Shared.Web.Models\Net.Shared.Web.Models.csproj" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Net.Shared.Exceptions\src\Net.Shared.Exceptions\Net.Shared.Exceptions.csproj" />
   </ItemGroup>
 
 </Project>

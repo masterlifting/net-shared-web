@@ -1,4 +1,4 @@
-﻿namespace Net.Shared.Web.Models.Settings.Connections;
+﻿namespace Net.Shared.Web.Abstractions.Models.Settings.Connections;
 
 public sealed class HttpConnectionSettings
 {
