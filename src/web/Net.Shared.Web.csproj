@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\shared\src\Net.Shared\Net.Shared.csproj" />
-    <ProjectReference Include="..\Net.Shared.Web.Abstractions\Net.Shared.Web.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\shared\src\shared\Net.Shared.csproj" />
+    <ProjectReference Include="..\web-abstractions\Net.Shared.Web.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>
